@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/facebook_color"
+                android:clickable="false"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".pages">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/register"
+            style="@style/bigtexheader_basics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register_text"/>
+
+        <EditText
+            android:id="@+id/contactname_editText"
+            style="@style/edittext_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/register"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/contacname_text"/>
+
+        <EditText
+            android:id="@+id/phoneN_company_editText"
+            style="@style/edittext_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/contactname_editText"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/phone_text"/>
+
+        <EditText
+            android:id="@+id/faxnumber_editText"
+            style="@style/edittext_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/phoneN_company_editText"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/faxnumber_text"/>
+
+        <EditText
+            android:id="@+id/webpage_editText"
+            style="@style/edittext_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/faxnumber_editText"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/webpage_text"/>
+
+        <EditText
+            android:id="@+id/workersn_editText"
+            style="@style/edittext_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/webpage_editText"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/workersn_text"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/address_company_editText"
+            style="@style/edittext_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/workersn_editText"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/address_text"/>
+
+        <Button
+            android:id="@+id/register2_company_update_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/address_company_editText"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/update_button_text"/>
+
+        <Button
+            android:id="@+id/register2_company_skip_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/register2_company_update_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/skip_button_text"/>
+    </RelativeLayout>
+</RelativeLayout>

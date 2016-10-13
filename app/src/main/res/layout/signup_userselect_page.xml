@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facebook_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".pages">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/userselector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/userselector_text"
+            android:textColor="#fff"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/student_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/userselector"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/studentbutton_text" />
+
+        <Button
+            android:id="@+id/company_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/student_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/companybutton_text" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

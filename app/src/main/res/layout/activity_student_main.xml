@@ -1,0 +1,43 @@
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.polito.mad.polijob.student.StudentMainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragmentStudentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/gradient" />
+
+    <include layout="@layout/toolbar"/>
+
+</RelativeLayout>
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/navigation_list_drawer"/>
+
+    </android.support.v4.widget.DrawerLayout>
+    <include layout="@layout/toolbar"/>
+
+</RelativeLayout>

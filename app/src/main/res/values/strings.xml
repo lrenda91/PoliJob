@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PoliJob</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="clear"></string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <string name="news">News</string>
+    <string name="search_positions">Search for positions</string>
+    <string name="savedPos">Favorite positions</string>
+    <string name="search_companies">Search for companies</string>
+    <string name="savedComp">Favorite companies</string>
+    <string name="profile">Profile</string>
+    <string name="applied">Applied</string>
+
+    <string name="fav_students">Favourite Students</string>
+    <string name="comp_positions">My positions</string>
+    <string name="search_students">Search for students</string>
+
+
+    <string name="welcomelogin_text">facebook</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">LOG IN</string>
+    <string name="signup_text">SIGN UP</string>
+    <string name="logout">Log out</string>
+
+    <string name="userselector_text">user</string>
+    <string name="studentbutton_text">Student</string>
+    <string name="companybutton_text">Company</string>
+
+    <string name="register_text">register</string>
+    <string name="firstname_text">First Name</string>
+    <string name="lastname_text">Last Name</string>
+    <string name="country_text">Select Country</string>
+    <string name="city_text">City</string>
+
+    <string-array name="career_arrays">
+        <item>Select Career</item>
+        <item>Bachelor</item>
+        <item>Degree</item>
+        <item>Master</item>
+        <item>PhD</item>
+    </string-array>
+
+    <string-array name="required_career_arrays">
+        <item>Required Career</item>
+        <item>Bachelor</item>
+        <item>Degree</item>
+        <item>Master</item>
+        <item>PhD</item>
+    </string-array>
+
+    <string-array name="languages_arrays">
+        <item>Select Language</item>
+        <item>Italian</item>
+        <item>English</item>
+    </string-array>
+
+
+    <string-array name="country_arrays">
+        <item>Select Country</item>
+        <item>Italy</item>
+        <item>Malaysia</item>
+        <item>Uzbekistan</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+        <item>Portugal</item>
+    </string-array>
+
+
+    <string-array name="types_of_contract">
+        <item>Select Contract</item>
+        <item>FULL_TIME</item>
+        <item>PART_TIME</item>
+        <item>CONTRACT</item>
+        <item>INTERNSHIP</item>
+        <item>TEMPORARY</item>
+        <item>OTHER</item>
+    </string-array>
+
+    <string-array name="type_arrays">
+        <item>Select Position</item>
+        <item>Course</item>
+        <item>Media</item>
+        <item>Sales</item>
+        <item>Recruitment</item>
+        <item>Social care</item>
+        <item>Environment</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="department_arrays">
+        <item>Select Department</item>
+        <item>ICT</item>
+        <item>Management</item>
+    </string-array>
+
+    <string name="dateofb_text">Date of Birth (DD/MM/YYYY)</string>
+    <string name="ssn_text">Social Security Number</string>
+    <string name="phone_text">Phone Number</string>
+    <string name="address_text">Address</string>
+    <string name="gender_text">Gender</string>
+    <string name="nation_text">Nationality</string>
+
+    <string name="aboutme_text">About Me</string>
+    <string name="skills_text">Skills</string>
+    <string name="linksto_text">Links to Projects/Works</string>
+    <string name="career_text">University Career</string>
+    <string name="hobbies_text">Hobbies</string>
+    <string name="available_text">Available Period</string>
+    <string name="uploadresume_text">Upload Resume</string>
+    <string name="addphoto_text">Add Photo</string>
+
+    <string name="update_button_text">UPDATE</string>
+    <string name="skip_button_text">SKIP</string>
+
+    <string name="comname_text">Company Name</string>
+    <string name="contacname_text">Contact Name</string>
+    <string name="faxnumber_text">Fax Number</string>
+    <string name="webpage_text">Web Page</string>
+    <string name="workersn_text">Number of Workers</string>
+
+    <string name="aboutcompany_text">About Company</string>
+    <string name="missions_text">Missions</string>
+    <string name="fields_text">Fields of Work</string>
+    <string name="awards_text">Awards</string>
+    <string name="addlogo_text">Add Logo</string>
+    <string name="title_activity_signup">signup</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_signupselect">signupselect</string>
+    <string name="title_activity_reg_c_1">reg_c_1</string>
+    <string name="title_activity_temp_profile_page">temp_profile_page</string>
+
+    <string name="contacts">Contacts</string>
+    <string name="info">Info</string>
+    <string name="infoStudent">Personal Info</string>
+
+    <string name="infoPosition">Information</string>
+    <string name="descriptionPosition">Description</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_company_main">CompanyMainActivity</string>
+    <string name="title_activity_add_details">addDetails</string>
+    <string name="title_activity_add_position">addPosition</string>
+    <string name="title_activity_info_company">InfoCompanyActivity</string>
+    <string name="title_activity_student_main">StudentMainActivity</string>
+    <string name="title_activity_student_position">PositionMainActivity</string>
+    <string name="studentProfileInsideCompany">PositionMainActivity</string>
+
+    <string name="provaTesto">
+        Although Android offers a variety of widgets to provide small and re-usable interactive elements, you might also need to re-use larger components that require a special layout. To efficiently re-use complete layouts, you can use the <include/> and <merge/> tags to embed another layout inside the current layout.
+
+Reusing layouts is particularly powerful as it allows you create reusable complex layouts. For example, a yes/no button panel, or custom progress bar with description text. It also means that any elements of your application that are common across multiple layouts can be extracted, managed separately, then included in each layout. So while you can create individual UI components by writing a custom View, you can do it even more easily by re-using a layout file.
+        Although Android offers a variety of widgets to provide small and re-usable interactive elements, you might also need to re-use larger components that require a special layout. To efficiently re-use complete layouts, you can use the <include/> and <merge/> tags to embed another layout inside the current layout.
+
+Reusing layouts is particularly powerful as it allows you create reusable complex layouts. For example, a yes/no button panel, or custom progress bar with description text. It also means that any elements of your application that are common across multiple layouts can be extracted, managed separately, then included in each layout. So while you can create individual UI components by writing a custom View, you can do it even more easily by re-using a layout file.
+    </string>
+    <string name="more_button_text">More</string>
+    <string name="edit">edit</string>
+    <string name="description">Description</string>
+    <string name="done">done</string>
+    <string name="about_company">About Company</string>
+    <string name="filds_of_work">Filds of Work</string>
+    <string name="mission">Mission</string>
+    <string name="title_activity_student_favorites">StudentFavoritesActivity</string>
+    <string name="title_activity_company_student_search">CompanyStudentSearchActivity</string>
+    <string name="title_activity_student_position_search">StudentPositionSearchActivity</string>
+    <string name="title_activity_student_company_search">StudentCompanySearchActivity</string>
+
+
+</resources>

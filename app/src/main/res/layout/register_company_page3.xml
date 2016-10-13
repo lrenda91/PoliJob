@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/facebook_color"
+                android:clickable="false"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".pages">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/register"
+            style="@style/bigtexheader_basics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register_text"/>
+
+        <Button
+            android:id="@+id/aboutcompany_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/register"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/aboutcompany_text"/>
+
+        <Button
+            android:id="@+id/missions_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/aboutcompany_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/missions_text"/>
+
+        <Button
+            android:id="@+id/fields_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/missions_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/fields_text"/>
+
+        <Button
+            android:id="@+id/awards_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/fields_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/awards_text"/>
+
+        <Button
+            android:id="@+id/addlogo_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/awards_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/addlogo_text"/>
+
+        <Button
+            android:id="@+id/register3_company_update_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/addlogo_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/update_button_text"/>
+
+        <Button
+            android:id="@+id/register3_company_skip_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/register3_company_update_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/skip_button_text"/>
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"
+        android:layout_below="@id/relativeLayout" />
+</RelativeLayout>

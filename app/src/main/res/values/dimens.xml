@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- don't remove -->
+    <dimen name="content_left_margin_from_screen">72dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+
+
+    <dimen name="header_image_height">180dp</dimen>
+
+    <!-- List Items dimension-->
+    <dimen name="list_item_height">62dp</dimen>
+    <dimen name="list_item_icon_dimen">32dp</dimen>
+    <dimen name="list_item_text_size">16sp</dimen>
+
+
+    <dimen name="round_button_diameter">48dp</dimen>
+    <dimen name="add_button_margin">16dp</dimen>
+    <dimen name="elevation_low">1dp</dimen>
+    <dimen name="elevation_high">8dp</dimen>
+
+    <!-- navigation_drawer.xml -->
+    <dimen name="drawer_layout_width">-.5dp</dimen>
+
+    <!-- title item list -->
+    <dimen name="default_textSize">14sp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="description_size">15sp</dimen>
+
+</resources>

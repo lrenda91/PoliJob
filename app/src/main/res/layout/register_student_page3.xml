@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/facebook_color"
+    android:clickable="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".pages">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/register"
+            style="@style/bigtexheader_basics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register_text" />
+
+        <Button
+            android:id="@+id/aboutme_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/register"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/aboutme_text" />
+
+        <Button
+            android:id="@+id/skills_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/aboutme_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/skills_text" />
+
+        <Button
+            android:id="@+id/linksto_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/skills_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/linksto_text" />
+
+        <Button
+            android:id="@+id/career_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/linksto_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/career_text" />
+
+        <Button
+            android:id="@+id/hobbies_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/career_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/hobbies_text" />
+
+        <Button
+            android:id="@+id/available_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/hobbies_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/available_text" />
+
+        <Button
+            android:id="@+id/uploadresume_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/available_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/uploadresume_text" />
+
+        <Button
+            android:id="@+id/addphoto_button"
+            style="@style/addinf_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/uploadresume_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/imagebutton_color"
+            android:drawableRight="@android:drawable/ic_input_add"
+            android:text="@string/addphoto_text" />
+
+
+        <Button
+            android:id="@+id/register3_student_update_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/addphoto_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/update_button_text" />
+
+        <Button
+            android:id="@+id/register3_student_skip_button"
+            style="@style/button_basics"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/register3_student_update_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_color"
+            android:text="@string/skip_button_text" />
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:visibility="invisible"
+            android:layout_below="@id/register3_student_skip_button" />
+    </RelativeLayout>
+
+
+</ScrollView>

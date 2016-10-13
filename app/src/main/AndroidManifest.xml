@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.polito.mad.polijob" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".PoliJobApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentActivities.reg_s_1"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".StudentActivities.reg_s_2"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".StudentActivities.reg_s_3"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".CompanyActivities.reg_c_1"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".CompanyActivities.reg_c_2"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".CompanyActivities.reg_c_3"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".signupselect"
+            android:label="@string/title_activity_signupselect"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".company.CompanyMainActivity"
+            android:label="@string/title_activity_company_main"
+            android:theme="@style/AppThemeToolbar" />
+        <activity
+            android:name=".StudentActivities.addDetails"
+            android:label="@string/title_activity_add_details" >
+        </activity>
+        <activity
+            android:name=".CompanyActivities.addPosition"
+            android:label="@string/title_activity_add_position"
+            android:theme="@style/AppThemeToolbar" >
+        </activity>
+        <activity
+            android:name=".student.StudentMainActivity"
+            android:label="@string/title_activity_student_main"
+            android:theme="@style/AppThemeToolbar" >
+
+            <!--
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".student.StudentPositionDetailsActivity"
+            android:label="@string/title_activity_student_main"
+            android:theme="@style/AppThemeToolbar" >
+
+            <!--
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+            -->
+
+            android:theme="@style/AppThemeToolbar">
+        </activity>
+        <activity
+            android:name=".company.CompanyPositionDetailsActivity"
+            android:label="@string/title_activity_student_main"
+            android:theme="@style/AppThemeToolbar" >
+        </activity>
+        <activity
+            android:name=".company.InfoCompanyActivity"
+            android:label="@string/title_activity_info_company"
+            android:theme="@style/AppThemeToolbar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".company.CompanyMainActivity" />
+        </activity>
+        <activity
+            android:name=".company.StudentProfileActivity"
+            android:label="@string/studentProfileInsideCompany"
+            android:theme="@style/AppThemeToolbar" />
+        <activity
+            android:name=".company.CompanyStudentSearchActivity"
+            android:label="@string/title_activity_company_student_search"
+            android:theme="@style/AppThemeToolbar" >
+        </activity>
+        <activity
+            android:name=".student.StudentCompanyDetailsActivity"
+            android:label="@string/title_activity_company_student_search"
+            android:theme="@style/AppThemeToolbar" >
+        </activity>
+        <activity
+            android:name=".student.StudentPositionSearchActivity"
+            android:label="@string/title_activity_student_position_search"
+            android:theme="@style/AppThemeToolbar" >
+        </activity>
+        <activity
+            android:name=".student.StudentCompanySearchActivity"
+            android:label="@string/title_activity_student_company_search"
+            android:theme="@style/AppThemeToolbar">
+        </activity>
+    </application>
+
+</manifest>

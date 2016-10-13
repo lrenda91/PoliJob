@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="it.polito.mad.polijob.StudentActivities.addDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/nation_editText"
+        android:id="@+id/datep"
+        >
+        <EditText
+            android:id="@+id/etxt_fromdate"
+            android:layout_width="match_parent"
+            style="@style/edittext_basics"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="from" />
+        <EditText
+            android:id="@+id/etxt_todate"
+            android:layout_width="match_parent"
+
+            style="@style/edittext_basics"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="to" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

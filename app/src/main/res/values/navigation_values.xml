@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="student_drawer_icons">
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_star_grey600_18dp</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_star_grey600_18dp</item>
+        <item>@drawable/ic_done_grey600_36dp</item>
+    </array>  
+    
+    <string-array name="student_drawer_titles">
+        <item>@string/profile</item>
+        <item>@string/news</item>
+        <item>@string/search_positions</item>
+        <item>@string/savedPos</item>
+        <item>@string/search_companies</item>
+        <item>@string/savedComp</item>
+        <item>@string/applied</item>
+    </string-array>
+
+    <array name="company_drawer_icons">
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_star_grey600_24dp</item>
+        <item>@drawable/ic_work_grey600_18dp</item>
+    </array>
+
+    <string-array name="company_drawer_titles">
+        <item>@string/profile</item>
+        <item>@string/search_students</item>
+        <item>@string/fav_students</item>
+        <item>@string/comp_positions</item>
+    </string-array>
+
+</resources>

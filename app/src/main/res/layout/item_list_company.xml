@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/card"
+    android:descendantFocusability="afterDescendants"
+    >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail_company_item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/item_image_company"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <!-- Name of the company-->
+    <TextView
+        android:id="@+id/item_title_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_alignTop="@+id/thumbnail_company_item_layout"
+        android:layout_toRightOf="@+id/thumbnail_company_item_layout"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <!-- about company -->
+    <TextView
+        android:id="@+id/item_aboutme_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_below="@id/item_title_company"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail_company_item_layout" />
+
+    <!-- Department-->
+    <TextView
+        android:id="@+id/item_department_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/item_title_company"
+        android:gravity="right"
+        android:layout_marginRight="5dip"
+        android:textSize="10dip"
+        android:textColor="#ff514d4e"
+        android:textStyle="bold"/>
+
+    <!-- company webpage -->
+    <TextView
+        android:id="@+id/item_webpage_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:textSize="10dip"
+        android:textColor="#ff514d4e"
+        android:textStyle="bold"
+        android:layout_below="@+id/item_aboutme_company"
+        android:layout_toRightOf="@+id/thumbnail_company_item_layout" />
+
+    <!-- Rightend Arrow -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/abc_ic_go_search_api_mtrl_alpha"
+        android:layout_toLeftOf="@+id/item_aboutme_company" />
+
+</RelativeLayout>

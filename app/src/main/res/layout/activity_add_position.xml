@@ -1,0 +1,181 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/facebook_color"
+    tools:context="it.polito.mad.polijob.CompanyActivities.addPosition">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <EditText
+                android:id="@+id/pos_title_edit"
+                style="@style/edittext_basics"
+                android:layout_width="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:hint="Position Title"
+                />
+            <Spinner
+                android:id="@+id/pos_typecontract_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/edittext_basics"
+                android:entries="@array/types_of_contract"
+                android:spinnerMode="dropdown"/>
+
+
+            <Spinner
+                android:id="@+id/pos_type_spinner"
+                style="@style/edittext_basics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:entries="@array/type_arrays"
+                android:spinnerMode="dropdown"/>
+
+            <Spinner
+                android:id="@+id/pos_spinner_country"
+                style="@style/edittext_basics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:entries="@array/country_arrays"
+                android:spinnerMode="dropdown"/>
+            <Spinner
+                android:id="@+id/required_degree"
+                style="@style/edittext_basics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:entries="@array/required_career_arrays"
+                android:spinnerMode="dropdown"/>
+
+            <EditText
+                android:id="@+id/pos_city_edit"
+                style="@style/edittext_basics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/city_text"
+                android:text="@string/clear"/>
+
+            <EditText
+                android:id="@+id/pos_inf_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="About Position"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:maxLines="8"
+                android:padding="5dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp"/>
+
+            <ListView
+                android:id="@+id/pos_skills_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:visibility="invisible"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/pos_skills_edit"
+                    style="@style/edittext_basics"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="10"
+                    android:ems="10"
+                    android:hint="Add skills"/>
+
+                <Button
+                    android:id="@+id/pos_addskill_button"
+                    style="@style/button_basics"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/student_city_editText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="9"
+                    android:background="@drawable/button_color"
+                    android:text="Add"
+
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pos_create_button"
+                style="@style/button_basics"
+                android:layout_width="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/student_city_editText"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_color"
+                android:text="Create"
+
+                />
+
+            <Button
+                android:id="@+id/pos_cancel_button"
+                style="@style/button_basics"
+                android:layout_width="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/student_city_editText"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_color"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+</FrameLayout>

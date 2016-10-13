@@ -1,0 +1,97 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        ...
+    </style>
+
+    <style name="ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppThemeWithoutActionBarTitle" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBarWithoutTitle</item>
+    </style>
+
+    <style name="ActionBarWithoutTitle" parent="@style/ActionBar">
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+
+
+    <style name="button_basics">
+        <item name="android:textColor">#fffefcff</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="edittext_basics">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="addinf_basics">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#ffc8c7c9</item>
+    </style>
+
+    <style name="bigtexheader_basics">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="actionMenuTextColor">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+    </style>
+
+    <style name="App.ProfileStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/facebook_color</item>
+        <item name="colorPrimaryDark">@color/facebook_opaque_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+    <!-- NO ACTION BAR STYLE IF YOU WANT TO USE THE TOOLBAR-->
+    <style name="AppThemeToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/facebook_color</item>
+        <item name="colorPrimaryDark">@color/facebook_opaque_color</item>
+    </style>
+
+
+</resources>
